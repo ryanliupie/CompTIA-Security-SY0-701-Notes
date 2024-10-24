@@ -9,6 +9,12 @@
 <hr> 
 
 ## Main Notes 
-- <h3> </h3>
+- <h3> <a href="MarkdownV6/Section_1.md"> Section 1: General Security Concepts </a> </h3>
+- <h3> <a href="MarkdownV6/Section_2.md"> Section 2: Threats, Vulnerabilities, and Mitigations </a> </h3>
+- <h3> <a href="MarkdownV6/Section_3.md"> Section 3: Security Architecture </a> </h3>
+- <h3> <a href="MarkdownV6/Section_4.md"> Section 4: Security Operations </a> </h3>
+- <h3> <a href="MarkdownV6/Section_5.md"> Section 5: Security Program Management and Oversight </a> </h3>
+
+
 
 

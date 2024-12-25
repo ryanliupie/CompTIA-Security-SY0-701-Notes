@@ -1,4 +1,4 @@
-# Threats, Vulnerabilities, and Mitigation 
+# Threats, Vulnerabilities, and Mitigations
 
 <img src="/Notes2/pic26.jpg" alt="section2-notes" width="800px">
 <img src="/Notes2/pic27.jpg" alt="section2-notes" width="800px">

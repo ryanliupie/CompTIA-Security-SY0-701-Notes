@@ -17,8 +17,8 @@
 
 <hr>
 
-## Exam Compass Quiz Results
-- <h3> <a href="Markdown/Section_6.md"> Section 5: Security Program Management and Oversight </a> </h3>
+## Exam Compass Mark Tracker
+- <h3> <a href="Markdown/Section_6.md"> Quizzes </a> </h3>
 
 
 

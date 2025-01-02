@@ -30,3 +30,10 @@
     Digital Signatures Quiz ➤ 7/7 : 100%
 </p>
 <img src="/Exam_Compass/ec8.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Digital Certificates Quiz ➤ 13/15 : 86%
+</p>
+<img src="/Exam_Compass/ec9.jpg" alt="exam_compass_notes" width="800px">

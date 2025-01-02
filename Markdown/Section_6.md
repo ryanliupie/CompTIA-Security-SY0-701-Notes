@@ -17,3 +17,11 @@
 <img src="/Exam_Compass/ec5.jpg" alt="exam_compass_notes" width="800px">
 <img src="/Exam_Compass/ec6.jpg" alt="exam_compass_notes" width="800px">
 <img src="/Exam_Compass/ec7.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Hashing Quiz ➤ 7/7 : 100%
+</p>
+
+<hr>

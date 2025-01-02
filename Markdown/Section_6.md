@@ -9,7 +9,7 @@
     Encryption Quiz 1 ➤ 20/36 : 55.55%
 </p>
 <p>
-    Encryption Quiz 1 ➤ 36/36 : 100%
+    Encryption Quiz 2 ➤ 36/36 : 100%
 </p>
 <img src="/Exam_Compass/ec2.jpg" alt="exam_compass_notes" width="800px">
 <img src="/Exam_Compass/ec3.jpg" alt="exam_compass_notes" width="800px">

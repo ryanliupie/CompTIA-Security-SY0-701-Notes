@@ -3,6 +3,8 @@
 </p>
 <img src="/Exam_Compass/ec1.jpg" alt="exam_compass_notes" width="800px">
 
+<hr>
+
 <p>
     Encryption Quiz 1 ➤ 20/36 : 55.55%
 </p>

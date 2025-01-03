@@ -64,3 +64,10 @@
     Malware Attacks Quiz ➤ 8/11 : 72.73%
 </p>
 <img src="/Exam_Compass/ec12.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Network Attacks Quiz ➤ 16/16 : 100%
+</p>
+<img src="/Exam_Compass/ec13.jpg" alt="exam_compass_notes" width="800px">

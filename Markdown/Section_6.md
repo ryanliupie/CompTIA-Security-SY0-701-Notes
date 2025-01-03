@@ -84,3 +84,10 @@
 <p>
     Indicators of Malicious Activity Quiz ➤ 7/7 : 100%
 </p>
+
+<hr>
+
+<p>
+    Data Protection Concepts Quiz ➤ 13/18 : 100%
+</p>
+<img src="/Exam_Compass/ec15.jpg" alt="exam_compass_notes" width="800px">

@@ -78,3 +78,9 @@
     Application Attacks Quiz ➤ 9/9 : 100%
 </p>
 <img src="/Exam_Compass/ec14.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Indicators of Malicious Activity Quiz ➤ 7/7 : 100%
+</p>

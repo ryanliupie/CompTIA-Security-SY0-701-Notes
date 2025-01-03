@@ -50,3 +50,10 @@
     Social Engineering Quiz ➤ 14/14 : 100%
 </p>
 <img src="/Exam_Compass/ec10.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Security Vulnerabilities Quiz ➤ 15/20 : 75%
+</p>
+<img src="/Exam_Compass/ec11.jpg" alt="exam_compass_notes" width="800px">

@@ -43,4 +43,5 @@
 <p>
     Threat Vectors & Attack Surfaces Quiz ➤ 17/17 : 100%
 </p>
-<img src="/Exam_Compass/ec99.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>

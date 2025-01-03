@@ -71,3 +71,10 @@
     Network Attacks Quiz ➤ 16/16 : 100%
 </p>
 <img src="/Exam_Compass/ec13.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Application Attacks Quiz ➤ 9/9 : 100%
+</p>
+<img src="/Exam_Compass/ec14.jpg" alt="exam_compass_notes" width="800px">

@@ -88,6 +88,13 @@
 <hr>
 
 <p>
-    Data Protection Concepts Quiz ➤ 13/18 : 100%
+    Data Protection Concepts Quiz ➤ 13/18 : 72%
 </p>
 <img src="/Exam_Compass/ec15.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Resilience and Recovery Quiz ➤ 23/25 : 94.44%
+</p>
+<img src="/Exam_Compass/ec16.jpg" alt="exam_compass_notes" width="800px">

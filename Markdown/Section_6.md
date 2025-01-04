@@ -157,4 +157,4 @@
 <p>
     Agreement Types Quiz ➤ 6/8 : 75%
 </p>
-<img src="/Exam_Compass/ec22jpg" alt="exam_compass_notes" width="800px">
+<img src="/Exam_Compass/ec22.jpg" alt="exam_compass_notes" width="800px">

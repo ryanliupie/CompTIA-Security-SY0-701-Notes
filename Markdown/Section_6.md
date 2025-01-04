@@ -133,6 +133,14 @@
     Access Controls Quiz ➤ 9/9 : 100%
 </p>
 
+<hr>
+
 <p>
     Password Concepts Quiz ➤ 20/20 : 100%
+</p>
+
+<hr>
+
+<p>
+    Incident Response Activites Quiz ➤ 10/10 : 100%
 </p>

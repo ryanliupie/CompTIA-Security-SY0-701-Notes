@@ -98,3 +98,10 @@
     Resilience and Recovery Quiz ➤ 23/25 : 94.44%
 </p>
 <img src="/Exam_Compass/ec16.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Wireless Security Settings Quiz ➤ 10/11 : 90/91%
+</p>
+<img src="/Exam_Compass/ec17.jpg" alt="exam_compass_notes" width="800px">

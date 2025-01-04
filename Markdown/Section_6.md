@@ -119,3 +119,10 @@
     Vulnerability Management Quiz ➤ 16/20 : 80%
 </p>
 <img src="/Exam_Compass/ec19.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Vulnerability Management Quiz ➤ 8/8 : 100%
+</p>
+<img src="/Exam_Compass/ec20.jpg" alt="exam_compass_notes" width="800px">

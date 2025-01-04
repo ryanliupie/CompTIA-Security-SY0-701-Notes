@@ -151,3 +151,10 @@
     Risk Management Concepts Quiz ➤ 28/28 : 100%
 </p>
 <img src="/Exam_Compass/ec21.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Agreement Types Quiz ➤ 6/8 : 75%
+</p>
+<img src="/Exam_Compass/ec22jpg" alt="exam_compass_notes" width="800px">

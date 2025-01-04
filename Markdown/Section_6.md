@@ -126,3 +126,9 @@
     Vulnerability Management Quiz ➤ 8/8 : 100%
 </p>
 <img src="/Exam_Compass/ec20.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Access Controls Quiz ➤ 9/9 : 100%
+</p>

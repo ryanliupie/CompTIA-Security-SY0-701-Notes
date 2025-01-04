@@ -112,3 +112,10 @@
     Application Security Quiz ➤ 9/13 : 69.23%
 </p>
 <img src="/Exam_Compass/ec18.jpg" alt="exam_compass_notes" width="800px">
+
+<hr>
+
+<p>
+    Vulnerability Management Quiz ➤ 16/20 : 80%
+</p>
+<img src="/Exam_Compass/ec19.jpg" alt="exam_compass_notes" width="800px">

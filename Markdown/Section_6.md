@@ -144,3 +144,10 @@
 <p>
     Incident Response Activites Quiz ➤ 10/10 : 100%
 </p>
+
+<hr>
+
+<p>
+    Risk Management Concepts Quiz ➤ 28/28 : 100%
+</p>
+<img src="/Exam_Compass/ec21.jpg" alt="exam_compass_notes" width="800px">

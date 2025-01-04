@@ -109,6 +109,6 @@
 <hr>
 
 <p>
-    Application Security Settings Quiz ➤ 9/13 : 69.23%
+    Application Security Quiz ➤ 9/13 : 69.23%
 </p>
-<img src="/Exam_Compass/ec17.jpg" alt="exam_compass_notes" width="800px">
+<img src="/Exam_Compass/ec18.jpg" alt="exam_compass_notes" width="800px">

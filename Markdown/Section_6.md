@@ -77,7 +77,6 @@
 <p>
     Application Attacks Quiz ➤ 9/9 : 100%
 </p>
-<img src="/Exam_Compass/ec14.jpg" alt="exam_compass_notes" width="800px">
 
 <hr>
 
@@ -164,3 +163,8 @@
 <p>
     Penetration Testing Quiz ➤ 10/10 : 100%
 </p>
+
+<hr> 
+
+## Important Concepts to Distinguish
+<img src="/Exam_Compass/ec23.jpg" alt="concepts" width="800px">

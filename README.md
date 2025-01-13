@@ -1,14 +1,14 @@
 # CompTIA-Security-SY0-701-Notes
 <hr>
 
-## Welcome
+## Welcome 👋
 <p>
   After taking the Network+ exam, I will do pursuing the Security+ and studying part time for it. I hope to pass the exam by August 2025 while working on other things as well! Down below, you can click on each markdown to review the objectives ⤵. Feel free to use them in your studies and contact me via email if you have any questions. 
 </p>
 
 <hr> 
 
-## Main Notes 
+## Main Notes 📒
 - <h3> <a href="Markdown/Section_1.md"> Section 1: General Security Concepts </a> </h3>
 - <h3> <a href="Markdown/Section_2.md"> Section 2: Threats, Vulnerabilities, and Mitigations </a> </h3>
 - <h3> <a href="Markdown/Section_3.md"> Section 3: Security Architecture </a> </h3>
@@ -17,12 +17,12 @@
 
 <hr>
 
-## Exam Compass Mark Tracker
+## Exam Compass Mark Tracker 🛠️
 - <h3> <a href="Markdown/Section_6.md"> Quizzes </a> </h3>
 
 <hr>
 
-## Jason Dion Practice Exam Tips 
+## Jason Dion Practice Exam Tips ⚔️
 
 <p> 
     When taking Jason Dion's Practic exams, make sure you have completed your notes and have gone through all the material. Imagine each practice exam you take, is the real exam. This will help you focus on the material because in my experience, CompTIA exams like to trick you so do not slack off. Also, since this exam was quite expensive, $437.69 CAD to be exact, buying another voucher will definitely hurt the bank a bit. 
@@ -43,4 +43,8 @@
 
 <hr>
 
-## Day of Exam Tips
+## Exam Day 🎯
+- <h3> Get good sleep  <h3>
+- <h3> Do not study on exam day  <h3>
+- <h3> Be confident <h3>
+- <h3> Eat dark chocolate (may help) <h3>

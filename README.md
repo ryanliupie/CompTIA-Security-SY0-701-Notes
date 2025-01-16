@@ -45,9 +45,10 @@
 
 <hr>
 
-## Performance Based Questions (PBQs) 🤔
+## Performance Based Questions (PBQs) 💭
 - <h3> <a href="Markdown/Section_7.md"> Firewall Rules </a> </h3>
 
+<hr>
 
 ## Exam Day 🎯
 - <h3> Get good sleep  <h3>

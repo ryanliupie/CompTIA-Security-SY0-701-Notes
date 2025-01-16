@@ -43,7 +43,6 @@
 
 <hr>
 
-<hr>
 
 ## Performance Based Questions (PBQs) 💭
 - <h3> <a href="Markdown/Section_7.md"> Firewall Rules </a> </h3>

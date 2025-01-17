@@ -46,6 +46,7 @@
 
 ## Performance Based Questions (PBQs) 💭
 - <h3> <a href="Markdown/Section_7.md"> Firewall Rules </a> </h3>
+- <h3> <a href="Markdown/Section_8.md"> Security Controls </a> </h3>
 
 <hr>
 

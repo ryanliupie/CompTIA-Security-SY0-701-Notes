@@ -10,17 +10,20 @@
     On the exam, make sure to not follow each step according to each rule. They may be scattered where question 1 might refer to firewall rule number 6. 
 </p>
 <p> 
-    🛡️In the first question, we want to set the source IP address for rule 1 to "any". This is because in the question it tells us to allow HTTP and HTTPS traffic from any external IP address to head to the web server. In this case, we are dealing with port 80 which is HTTP. We will set the action to "allow" in order for the traffic to reach the web server. Also, in rule 2 since we are dealing with HTTPS based on port 443, we need to set the destination IP address to (10.0.0.1) because that is the IP address of the web server. 
-</p>
-<p> 
-    🛡️In the second question, we simply need to allow SSH traffic from the internal network to the database server where the question asks us the specific port number. Since we need to allow SSH traffic, we will set it to port 22 because SSH operates on that port number.  
+    🛡️In the first question, we set the source IP address for rule 1 to "any." This is because the question specifies that HTTP and HTTPS traffic from any external IP address should be allowed to reach the web server. Since we are dealing with port 80, which corresponds to HTTP, we will set the action to "allow" to enable the traffic to reach the web server.
 </p>
 <p>
-    🛡️For the third question, we need to allow DNS queries from any device on the internal network to head to the DNS server. Based on question 2 and the firwall rules, we know that the internal network is (192.168.1.0/24). This means that we will set the source IP to that because we need the internal network for this function. Also, since we want those queries to reach the DNS server, we will set the action to "allow". 
+    For rule 2, as we are dealing with HTTPS traffic on port 443, we need to set the destination IP address to (10.0.0.1), which is the IP address of the web server.
 </p>
 <p> 
-    🛡️The fourth question wants SMTPS traffic to reach the mail server. This question asks us what the destination IP address is and on what port number. Since the question states that the mail server is (10.0.0.4), we will set it to that. As well as setting the port number to 587 for SMTPS traffic to flow. It is not port 25 because that would be SMTP, the insecure version. 
+    🛡️In the second question, we need to allow SSH traffic from the internal network to the database server, as the question specifies the required port number. Since SSH operates on port 22, we will configure the rule to allow traffic on that port. 
+</p>
+<p>
+    🛡️Next, we need to allow DNS queries from any device on the internal network to the DNS server. Based on question 2 and the firewall rules, we know the internal network is (192.168.1.0/24). Therefore, we will set the source IP to (192.168.1.0/24) to allow this function. Additionally, since the queries are intended to reach the DNS server, we will set the action to "allow."
 </p>
 <p> 
-    🛡️Lastly, we want to deny all the other traffic by default. In this case, we can simply set the destination IP to "any" and the port number to "any". This is because we already set the action to "deny", where anything that comes in that's not in rule 1,2,3, and 4, will get denied. 
+    🛡️The fourth question requires us to configure SMTPS traffic to reach the mail server. It asks for the destination IP address and the port number. Since the mail server is (10.0.0.4), we will set the destination IP to this address. For the port number, we will use 587 for SMTPS traffic, as this is the secure version of SMTP. Port 25 would correspond to SMTP, which is insecure.
+</p>
+<p> 
+    🛡️We want to deny all other traffic by default. To accomplish this, we will set the destination IP to "any" and the port number to "any." With the action set to "deny," any traffic not covered by rules 1, 2, 3, or 4 will be blocked.
 </p>

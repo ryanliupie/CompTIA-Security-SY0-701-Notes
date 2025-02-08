@@ -1,4 +1,4 @@
-# CompTIA-Security-SY0-701-Notes
+# CompTIA-Security-SY0-701-Notes 📚 ✔
 <hr>
 
 ## Welcome 👋
@@ -55,3 +55,7 @@
 - <h3> Do not study on exam day  <h3>
 - <h3> Be confident <h3>
 - <h3> Eat dark chocolate (may help) → <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10803911/"> Scientific Study </a> <h3>
+
+<hr>
+
+## Passed on February 7th, 2025 ✔

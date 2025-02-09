@@ -37,9 +37,6 @@
 <p>
     Once these exams are done, fill in the gaps. What don't you know that well? If this term were to pop up on the exam, would you be lost? Differentiate your resources by taking free practice exams on YouTube, learn from different people, and even turning a random page in your notes. This will help you fill in the gaps in my experience. 
 </p>
-<p>
-    Finally, take all six practice exams a third time, but now, with more knowledge on the material. If you are getting close to 100%, you have learnt. This not only primes you with knowledge but confidence. Taking these practice exams three times may seem excessive, but as a student, we want to maximize results, while minimizing cost. One might argue that time is of the essence, which is true, but are you willing to manage your time wisely? 
-</p>
 
 <hr>
 

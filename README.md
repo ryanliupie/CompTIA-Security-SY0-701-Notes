@@ -37,7 +37,7 @@ Finally, identify any knowledge gaps. Consider whether you could confidently ans
 
 
 ## Performance Based Questions (PBQs) 💭
-- <h3> <a href="performance_based_questions/firewall_rules_pbq_explanation.md.md"> Firewall Rules </a> </h3>
+- <h3> <a href="performance_based_questions/firewall_rules_pbq_explanation.md"> Firewall Rules </a> </h3>
 - <h3> <a href="performance_based_questions/security_controls_pbq_explanation.md"> Security Controls </a> </h3>
 
 <hr>

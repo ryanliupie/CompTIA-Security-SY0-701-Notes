@@ -1,5 +1,8 @@
-<img src="/PBQ/pbq1.jpeg" alt="performance-based-questions" width="800px">
-<img src="/PBQ/pbq2.jpeg" alt="performance-based-questions" width="800px">
+<img src="firewall_rules_pbq_answers.jpeg" alt="firewall rules pbq" width="800px">
+
+<img src="firewall_rules_pbq_answers_cont.jpeg" alt="firewall rules pbq" width="800px">
+
+
 
 <hr>
 

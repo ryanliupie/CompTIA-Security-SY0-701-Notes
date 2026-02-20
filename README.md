@@ -1,58 +1,52 @@
-# CompTIA-Security-SY0-701-Notes 📚 ✔
-<hr>
+# CompTIA-Security-SY0-701-Exam
 
 ## Welcome 👋
-<p>
-  After taking the Network+ exam, I will do pursuing the Security+ and studying part time for it. I hope to pass the exam by August 2025 while working on other things as well! Down below, you can click on each markdown to review the objectives ⤵. Feel free to use them in your studies and contact me via email if you have any questions. 
-</p>
 
+Down below ↓ contain my notes regarding the information to pass the CompTIA Security+ SY0-701. Feel free to use either the written notes or the notes in markdown (will write soon). 
 <hr> 
 
-## Main Notes 📒
-- <h3> <a href="Markdown/Section_1.md"> Section 1: General Security Concepts </a> </h3>
-- <h3> <a href="Markdown/Section_2.md"> Section 2: Threats, Vulnerabilities, and Mitigations </a> </h3>
-- <h3> <a href="Markdown/Section_3.md"> Section 3: Security Architecture </a> </h3>
-- <h3> <a href="Markdown/Section_4.md"> Section 4: Security Operations </a> </h3>
-- <h3> <a href="Markdown/Section_5.md"> Section 5: Security Program Management and Oversight </a> </h3>
+## Written Notes 📒
 
+- <h3> <a href="organized_written_domains/01_general_security_concepts.md"> Section 1: General Security Concepts </a> </h3>
+- <h3> <a href="organized_written_domains/02_threats_vulnerabilities_mitigations.md"> Section 2: Threats, Vulnerabilities, and Mitigations </a> </h3>
+- <h3> <a href="organized_written_domains/03_security_architecture.md"> Section 3: Security Architecture </a> </h3>
+- <h3> <a href="organized_written_domains/04_security_operations.md"> Section 4: Security Operations </a> </h3>
+- <h3> <a href="organized_written_domains/05_security_program_management_oversight.md"> Section 5: Security Program Management and Oversight </a> </h3>
 <hr>
 
-## Exam Compass Mark Tracker 🛠️
-- <h3> <a href="Markdown/Section_6.md"> Quizzes </a> </h3>
+## Markdown Notes 🖳
+- Will make digital notes to make it easier to study
+
+## Exam Compass 
+- <h3> <a href="exam_compass_quizzes/exam_compass_quiz_review.md"> Quizzes </a> </h3>
 
 <hr>
 
 ## Jason Dion Practice Exam Tips ⚔️
 
-<p> 
-    When taking Jason Dion's Practic exams, make sure you have completed your notes and have gone through all the material. Imagine each practice exam you take, is the real exam. This will help you focus on the material because in my experience, CompTIA exams like to trick you so do not slack off. Also, since this exam was quite expensive, $437.69 CAD to be exact, buying another voucher will definitely hurt the bank a bit. 
-</p>
-<p>
-    The way I did this was by taking each exam once with no material in front of me. After the exam was done, go through all the incorrect answers and write it up in google docs about why it was wrong and what is the correct answer. If you only memorize the correct answer, you are not learning. Once that is done, go through all the correct answers because there will be some of them that you may have guessed. If that's the case, it's best to understand why your guess was correct even if you were deciding on two and chose the other. 
-</p>
-<p>
-    After going through each exam once, take it again. If you are not getting close to 100%, you have not learnt the material enough, hence, you have to review again. Next, make sure you know each acrynomn where you can explain what each one is even if you have not memorized the specific wording.   
-</p>
+Before attempting Jason Dion’s practice exams, ensure you have completed your notes and reviewed all course material. Treat each practice exam as if it were the real test. CompTIA questions often assess precision and critical thinking, so approach them seriously and avoid relying on memorization alone. Given the cost of the exam voucher ($437.69 CAD), preparation should be disciplined and intentional.
 
-<p>
-    Once these exams are done, fill in the gaps. What don't you know that well? If this term were to pop up on the exam, would you be lost? Differentiate your resources by taking free practice exams on YouTube, learn from different people, and even turning a random page in your notes. This will help you fill in the gaps in my experience. 
-</p>
+Take each practice exam once under exam conditions without notes. After completing it, review every incorrect answer and document why your choice was wrong and why the correct answer is right. Focus on understanding the concept rather than memorizing answers.
 
+Next, review the questions you answered correctly. If any were guesses, clarify why the correct option was right and why the others were not.
+
+After completing all exams once, retake them. If you are not consistently scoring near 100%, revisit weaker areas. Mastery means understanding the material well enough to explain acronyms and concepts clearly in your own words.
+
+Finally, identify any knowledge gaps. Consider whether you could confidently answer a question if a specific term appeared unexpectedly. Supplement your preparation with additional resources, such as free practice questions or alternative explanations, to reinforce understanding and close remaining gaps.
 <hr>
 
 
 ## Performance Based Questions (PBQs) 💭
-- <h3> <a href="Markdown/Section_7.md"> Firewall Rules </a> </h3>
-- <h3> <a href="Markdown/Section_8.md"> Security Controls </a> </h3>
+- <h3> <a href="performance_based_questions/firewall_rules_pbq_explanation.md.md"> Firewall Rules </a> </h3>
+- <h3> <a href="performance_based_questions/security_controls_pbq_explanation.md"> Security Controls </a> </h3>
 
 <hr>
 
 ## Exam Day 🎯
-- <h3> Get good sleep  <h3>
-- <h3> Do not study on exam day  <h3>
-- <h3> Be confident <h3>
-- <h3> Eat dark chocolate (may help) → <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10803911/"> Scientific Study </a> <h3>
-
+- <h3>Get good sleep<h3>
+- <h3>Review concepts if needed<h3>
+- <h3>Be confident<h3>
+- <h3>Eat a meal before hand<h3>
 <hr>
 
 ## Passed on February 7th, 2025 ✔

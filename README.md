@@ -14,7 +14,7 @@ Down below ↓ contain my notes regarding the information to pass the CompTIA Se
 - <h3> <a href="organized_written_domains/05_security_program_management_oversight.md"> Section 5: Security Program Management and Oversight </a> </h3>
 <hr>
 
-## Markdown Notes 🖳
+## Markdown Notes 🖳 (Still in progress, apologies)
 - <h3> <a href="organized_digital_domains/01d_general_security_concepts.md"> Section 1: General Security Concepts </a> </h3>
 
 ## Exam Compass 

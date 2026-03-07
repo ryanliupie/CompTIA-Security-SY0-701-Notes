@@ -2,7 +2,7 @@
 
 ## Welcome 👋
 
-Down below ↓ contain my notes regarding the information to pass the CompTIA Security+ SY0-701. Feel free to use either the written notes or the notes in markdown (will write soon). 
+Down below ↓ contain my notes regarding the information to pass the CompTIA Security+ SY0-701. Feel free to use either the written notes or the notes in markdown (will write all soon). 
 <hr> 
 
 ## Written Notes 📒
@@ -15,7 +15,7 @@ Down below ↓ contain my notes regarding the information to pass the CompTIA Se
 <hr>
 
 ## Markdown Notes 🖳
-- Will make digital notes to make it easier to study
+- <h3> <a href="organized_written_domains/01d_general_security_concepts.md"> Section 1: General Security Concepts </a> </h3>
 
 ## Exam Compass 
 - <h3> <a href="exam_compass_quizzes/exam_compass_quiz_review.md"> Quizzes </a> </h3>

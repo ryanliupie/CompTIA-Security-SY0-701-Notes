@@ -76,7 +76,7 @@ To fully achieve non-repudiation, we use tools that provide <b>proof of origin</
 
 2. <b>Authorization:</b> 
 
-    Determines <b>what a user is allowed to do</b> after they are authenticated. Examples include access to files or permissions such as read, write, and execute. This answers: <b>"What can you do?"</b>. This follows the concept of least privilege, where users are only given the minimum level of access required to perform their tasks.
+    Determines <b>what a user is allowed to do</b> after they are authenticated. Examples include access to files or permissions such as read, write, and execute. This answers: <b>"What can you do?"</b>. This follows the concept of <b>least privilege</b>, where users are only given the minimum level of access required to perform their tasks.
 
     There are two main ideas regarding authentication:
 

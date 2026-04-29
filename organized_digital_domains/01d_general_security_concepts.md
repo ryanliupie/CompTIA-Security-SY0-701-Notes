@@ -91,3 +91,105 @@ To fully achieve non-repudiation, we use tools that provide <b>proof of origin</
 3. <b>Accounting:</b> 
 
     Tracks and logs <b>what a user does</b> within a system. Examples include login logs, file access history, and audit trails. This answers: <b>"What did you do?"</b>. 
+
+### Gap Analysis
+
+<b>Gap Analysis</b> is the process of comparing where you are now versus where you want to be. It often involves research over weeks or months to gather data and determine which security measures will be needed in the future. The goal is to identify what gaps exist and how to address them.
+
+<b>Frameworks & Standards</b>
+
+To perform a gap analysis, organizations compare their current state against established frameworks or sets of questions. Common examples include:
+
+- NIST Special Publication 800-171 Revision 2
+- ISO/IEC 27001
+- Custom frameworks tailored to the organization 
+
+To systematically identify and address gaps, the process is divided into the following stages:
+
+1. <b>Evaluate People and Processes</b>
+    - Assess employee experience and expertise
+    - Review current training programs
+    - Evaluate knowledge of security policies and procedures
+2. <b>Compare Against Controls</b>
+    - Evaluate existing systems
+    - Identify weaknesses
+    - Examine broad security categories and break them down into smaller components
+        - <b>Example: Account Management</b>
+            
+            1. Registration/de-registration
+            2. User access provisioning 
+            3. Review of user access rights 
+3. <b>Analysis and Reporting</b>
+    - Define baseline (desired state vs current state)
+    - Identify the path to improvement (time, money, and achievable controls)
+    - Produce a Gap Analysis Report (formal documentation of findings and recommendations)
+
+### Zero Trust
+
+In networking, <b>Zero Trust</b> is a security concept based on the principle <i>never trust, always verify</i>. 
+
+Instead of assuming users or devices inside a network are safe, every access request must be continuously validated. This is similar to, but more strict than, traditional models like SSO, often requiring multi-factor authentication (MFA) and strict policy enforcement.
+
+Zero architecture is typically divided into two main components: 
+
+1. <b>Control Plane:</b> This is responsible for making policy decisions. It determines:
+    - How traffic should be handled (e.g., routing, NAT, packet forwarding)
+    - Whether a user or service should be granted access
+    - What criteria must be met before access is allowed
+
+    The core concepts in the control plane are:
+
+    - <b>Adaptive Identity</b> (Access decisions are dynamically adjusted based on user behaviour)
+        - If a user behaves outside normal patterns, additional verification may be required
+        - Example: logging in from a new location triggers MFA 
+
+    - <b>Threat Scope Reduction</b> (Limits how much of the system a user can access)
+        - Users only get access to what is necessary (`least privilege`)
+        - Reduces the impact of a potential breach
+        - Example: restricting access to a small network segment instead of the entire system
+    
+    - <b>Policy-Driven Access Control</b> (Policies define how access decisions are made)
+        - Evaluates requests against policies
+        - Grants or denies access in real time
+    
+    - <b>Policy Administrator</b> (Executes decisions made by the policy engine)
+        - Evaluates requests against policies
+        - Grants or denies access in real time
+    
+    - <b>Policy Engine</b> (Responsible for making access decisions)
+        - Evaluates identity, device, behavior, and context  
+        - Determines whether to allow, deny, or require additional verification  
+        - Continuously monitors for changes in behaviour  
+        - Triggers re-evaluation of access when anomalies are detected 
+    
+2. <b>Data Plane</b>: It is responsible for processing and handling network traffic, including packets and network data. This includes functions such as packet forwarding, traffic inspection, encryption, and Network Address Translation (NAT). 
+
+    The Data Plane operates under the direction of the Control Plane, which defines the policies and rules. While the Control Plane makes decisions about whether traffic should be allowed or denied, the Data Plane enforces those decisions by allowing or blocking data flows between users and resources. Some key concepts of the Data plane include: 
+
+    1. <b>Removal of Implicit Trust Zones</b> → Traditional networks relied on “trusted zones” (internal vs external).
+
+        - Internal networks were trusted 
+        - External networks were not trusted
+
+        `Zero Trust eliminates this model:`
+        - Trust is not based on location 
+        - Every request must be verified individually
+    
+    2. <b>Subjects and Systems</b>
+        - <b>Subject</b> → User, device, or service requesting access
+        - <b>System/Resource</b> → What the subject is trying to access
+    
+        Key idea: 
+        - Subjects may have changing identities (behavior, location, device)
+        - Systems are the resources being protected
+    
+    3. <b>Policy Enforcement Point (PEP)</b> → The PEP acts as a gatekeeper between subjects and resources 
+        - It enforces decisions made by the control plane
+        - Does NOT make decisions itself
+        - Only allows access if policies are satisfied
+
+        Analogy: 
+        
+        Think of the PEP like a bouncer at a club.
+        The manager (policy engine) sets the rules, and the bouncer checks if you meet them before letting you in.
+    

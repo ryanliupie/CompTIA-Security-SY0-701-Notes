@@ -1,6 +1,6 @@
 # General Security Concepts 
 
-## 1.1 Security Controls 
+## 1.1 - Security Controls 
 
 <b>1. Technical Controls</b> → also known as logical controls, are mechanisms that rely on technology (hardware or software) to protect systems, data and networks. For example, we can have firewalls, IDS/IPS, encryption, antivirus software etc..
 
@@ -25,7 +25,7 @@
 - <b>Directive</b> set out expectations and provide guidance on how to act in specific situations. We can do this by storing sensitive files in a protected folder, creating compliance policies and procedures, training users on security policies, using an “authorized personnel only” sign.
 <hr>
 
-## 1.2 Security Controls 
+## 1.2 - Security Controls 
 
 ### The CIA Triad
 
@@ -193,3 +193,150 @@ Zero architecture is typically divided into two main components:
         Think of the PEP like a bouncer at a club.
         The manager (policy engine) sets the rules, and the bouncer checks if you meet them before letting you in.
     
+### Physical Security
+Physical security is very important for day-to-day operations and there are different types including:
+
+- <b>Bollards:</b> are meant to prevent unauthorized vehicle access while still allowing people to walk through. For example, you may see these poles at the front of supermarkets, storefronts, or driveways. Some locations use retractable metal bollards that go up and down to control vehicle access and help prevent vehicle theft or vehicle ramming attacks.
+
+- <b>Access control vestibules (mantraps)</b>: are small access rooms used to control entry into secure areas. Once you enter through the first door using a PIN, ID badge, biometrics, etc., the first door closes before the second door opens. This helps prevent tailgating and piggybacking by ensuring only one person enters at a time.
+
+- <b>Fencing:</b> is very common to prevent unauthorized access to an area such as a house, yard, or restricted facility.
+
+- <b>Video surveillance:</b> means using CCTV (Closed-Circuit Television) cameras to monitor areas and support or replace physical guards. Cameras can detect motion, monitor suspicious activity, and trigger alarms when people enter unauthorized areas.
+
+- <b>Security Guards:</b> provide physical protection and monitoring in an area such as a university or other buildings and facilities.
+
+- <b>Access badges:</b> are authorized identification badges required to enter certain areas for additional security and identity verification.
+
+- <b>Lighting:</b> improves visibility and security since dark areas make it easier for intruders to hide or move around unnoticed. Proper lighting also helps cameras capture clearer facial details and activities.
+
+### Deception and Disruption
+
+There are different security techniques used to create deception and disruptions:
+
+- <b>Honeypots:</b> attract attackers and trap them in a controlled environment so security teams can analyze the techniques being used against them. Attackers may use automated systems, vulnerability scanners, or scripts, while defenders try to make the honeypot appear realistic enough that attackers believe it is real.
+
+- <b>Honeynets:</b> are entire networks of honeypots designed to make the environment even more believable. A honeypot could simulate a server, router, firewall, VPN concentrator, load balancer, or other systems. Multiple honeypots make it harder for attackers to determine what is real or fake.
+
+- <b>Honeyfiles:</b> are files containing fake but seemingly sensitive information designed to attract attackers. For example, creating a file named `passwords.txt`.
+
+- <b>Honeytokens:</b> are pieces of fake data or information placed within databases, documents, email accounts, or other data repositories to detect unauthorized access. For example, fake login credentials or fake API keys may be planted to monitor who attempts to use them.
+
+## 1.3 - Change Management
+
+In a corporate environment, making a change such as updating software, patching an application, modifying switch or router configurations, or reconfiguring firewalls and rules can affect many other systems.
+
+By having an <b>approval process</b>, we can avoid downtime, confusion, and mistakes.
+- Complete the request form
+- Determine the purpose of the change
+- Identify the scope of the change
+- Schedule a date and time for the change
+- Determine affected systems and the impact
+- Analyze the risks associated with the change
+- Get approval from the Change Control Board (CCB)
+- Get end-user acceptance once the change is complete
+
+We also identify the risk level (high, medium, low). There is risk if the change is not made (security vulnerabilities, application unavailability) and also risk if the change is made incorrectly, which is why <b>impact analysis</b> is important.
+
+This process starts with determining <b>ownership</b> of the application or system. If a change needs to be made, the owner or administrator responsible for the affected system performs or coordinates the change. For example, if software used by the shipping and receiving department needs to be upgraded, the shipping department may own the process while the IT department performs the technical implementation.
+
+The <b>stakeholders</b> would also be affected by this change, so before implementing it we must review how the change impacts different departments. For example, upgrading shipping software may impact shipping/receiving, accounting, product delivery timelines, customers, and finance.
+
+Before implementing the change in a production environment, we need to <b>test it first</b>. Tests should be done in a development or staging environment to ensure the change works correctly before being moved into production. We should also document rollback or backup plans in case the change causes issues.
+
+The most difficult part of the process is usually the <b>maintenance window</b>. During this time, systems may become unavailable while updates or fixes are applied. Organizations often schedule maintenance during low-usage hours such as late nights or weekends because outages during business hours may affect operations heavily.
+
+A <b>Standard Operating Procedure (SOP)</b> is a document that explains the entire process step-by-step so changes can be completed consistently and correctly. SOPs are updated over time to improve efficiency and reduce mistakes.
+
+### Technical Change Management
+
+We are now looking at the change control process from the technical point of view.
+
+A technician may need to change firewall rules, IDS/IPS signatures, or configurations related to applications and infrastructure. These modifications can introduce vulnerabilities or unintended issues that may affect other systems if not managed properly.
+
+- <b>Restricted activities</b> → are used to limit what a person can change. A technician should only modify the components they are authorized to work on. Even if they have broader permissions, only approved changes should be performed during the maintenance window. This follows the principle of least privilege and helps reduce mistakes.
+
+- <b>Downtime</b> → refers to the maintenance window where services may become partially or completely unavailable while changes are being implemented. Some downtime is planned and expected, but unplanned downtime may occur from unexpected outages or failed changes.
+
+A common thing to do after a change is to perform a <b>service restart</b>. Some services or applications require restarting before new configurations or updates take effect.
+
+On the other hand, an <b>application restart</b> may cause the entire application to go offline. For example, restarting the whole e-commerce platform could make the website inaccessible, preventing browsing, payments, and cart usage.
+
+<b>Legacy applications</b> may have been running for many years and may no longer receive updates or vendor support. Changes involving legacy systems must be planned carefully because modifications could break compatibility or affect other connected systems.
+
+Sometimes before changing System A, you may also need to update System B first. These are called <b>dependencies</b>. Dependencies may not always exist on the same system. For example, upgrading financial management software may require updating database schemas or libraries beforehand.
+
+When managing many changes, <b>documentation</b> becomes very important. Every change should be tracked no matter how small. Examples include:
+
+- <b>Updating diagrams</b> such as modifications to network diagrams 
+- <b>Updating policies/procedures</b> such as new systems requiring new policies/procedures
+
+We can also review how code changes over time using systems like GitHub. This is a form of <b>version control</b>, allowing administrators and developers to track revisions, compare versions, and restore previous configurations if necessary. Some devices or operating systems may not include built-in version control features, so additional software may be required. 
+
+## 1.4 Cryptographic Solutions
+
+### Public Key Infrastructure 
+
+<b>Public Key Infrastructure (PKI)</b> is a broad term in cryptography that mainly refers to the use of policies, procedures, hardware, software, and people for creating, distributing, managing, storing, and revoking <b>digital certificates</b>.
+
+PKI is used to associate digital certificates with people, users, organizations, or devices in conjunction with a <b>Certificate Authority (CA)</b>.
+
+A <b>Certificate Authority (CA)</b> is a trusted entity responsible for issuing and validating digital certificates.
+
+### Symmetric Encryption
+
+<b>Symmetric encryption</b> uses the same key for both encryption and decryption. Whenever you are decrypting information, you use the same key that was originally used to encrypt the data.
+
+- It uses a single shared key
+- The key must be securely distributed between parties
+- It is generally a very fast encryption method
+
+Examples include:
+- AES
+- DES
+- ChaCha20
+
+### Asymmetric Encryption
+
+<b>Asymmetric encryption</b> uses two different keys:
+
+- A <b>public key</b>
+- A <b>private key</b>
+
+These keys are mathematically related and are generated together.
+
+- The <b>public key</b> is openly shared and available to anyone
+- The <b>private key</b> is confidential and only known to the owner
+
+The public key is used to encrypt messages or data, while the private key is used to decrypt the encrypted information. This allows secure communication without needing to share the private key publicly.
+
+Examples include:
+- RSA
+- ECC (Elliptic Curve Cryptography)
+
+### Public and Private Key Analogy
+
+Think of it like giving someone an open padlock.
+
+- Anyone can place the lock onto the locker and lock it using the <b>public key</b>
+- However, only the owner with the correct <b>private key</b> can unlock and open it
+
+This demonstrates how anyone can encrypt data, but only the intended owner can decrypt it.
+
+A public key may look like a long randomized string of characters such as:
+
+    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A...
+
+### Key Escrow
+
+<b>Key escrow</b> refers to storing a copy of a private encryption key with a trusted third party known as an <b>escrow agent</b>.
+
+For example:
+
+- A user creates a public and private key pair
+- The user encrypts data normally using the public key
+- If the private key is lost, the escrow agent may provide the stored backup copy for recovery purposes
+
+This helps prevent permanent data loss if encryption keys are lost.
+
+<b></b>

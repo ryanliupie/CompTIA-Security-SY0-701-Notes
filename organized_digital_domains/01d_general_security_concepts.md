@@ -273,7 +273,7 @@ When managing many changes, <b>documentation</b> becomes very important. Every c
 
 We can also review how code changes over time using systems like GitHub. This is a form of <b>version control</b>, allowing administrators and developers to track revisions, compare versions, and restore previous configurations if necessary. Some devices or operating systems may not include built-in version control features, so additional software may be required. 
 
-## 1.4 Cryptographic Solutions
+## 1.4 - Cryptographic Solutions
 
 ### Public Key Infrastructure 
 
@@ -339,4 +339,202 @@ For example:
 
 This helps prevent permanent data loss if encryption keys are lost.
 
-<b></b>
+### Encryption Data
+
+- <b>Full-disk encryption</b> secures the entire storage device, including all partitions and system files.
+
+- <b>Partition encryption</b> secures only a selected partition of a disk.
+Examples include <b>BitLocker</b> (Windows), <b>FileVault</b> (macOS), and - <b>LUKS</b> (Linux).
+
+- <b>File encryption</b> protects individual files instead of the whole disk.
+Windows can use <b>EFS (Encrypting File System)</b> for file-level encryption.
+
+- <b>Database encryption</b> protects stored database data and the transmission of that data.
+Database encryption may encrypt entire tables, columns, or specific records.
+
+- <b>Record encryption</b> occurs when only certain rows or records in a database are encrypted while other data may remain plaintext.
+
+- <b>Transport encryption</b> protects data while it travels across networks.
+<b>HTTPS</b> uses <b>TLS</b> over port <b>443</b> to encrypt web traffic.
+Organizations may also use <b>VPNs</b> for encrypted communication tunnels.
+Common VPN technologies include <b>SSL/TLS VPN</b> and <b>IPSec VPN</b>.
+
+### Encryption Algorithms
+
+| Feature | <b>DES (Digital Encryption Standard)</b> | <b>AES (Advanced Encryption Standard)</b> |
+|---|---|---|
+| Type | <b>Symmetric encryption</b> algorithm | Modern <b>symmetric encryption</b> algorithm |
+| Key Length | <b>56-bit</b> key | <b>128-bit</b>, <b>192-bit</b>, or <b>256-bit</b> keys |
+| Block Size | <b>64-bit block cipher</b> | <b>128-bit block size</b> |
+| Security | Vulnerable to <b>brute-force attacks</b> due to short key length | Significantly stronger security |
+| Performance | Slower and outdated | Faster and more efficient |
+| Usage | Considered insecure today | Commonly used with <b>WPA2/WPA3</b> wireless security |
+| Recommendation | Not recommended for modern systems | Preferred modern encryption standard |
+
+<b>Key Stretching</b>
+
+- <b>Key stretching</b> increases the work required to crack passwords or hashes.
+This can involve repeatedly hashing data many times.
+Makes brute-force attacks significantly slower and more difficult.
+
+### Key Exchange 
+
+- <b>Key exchange</b> securely establishes encryption keys between two parties.
+Public transmission of symmetric keys is insecure because attackers could intercept them.
+- <b>Asymmetric cryptography</b> helps securely exchange symmetric keys.
+    - Each user has a <b>public key</b> and a <b>private key</b>.
+    - The <b>public key</b> can be shared openly.
+    - The <b>private key</b> must remain secret.
+    - Asymmetric encryption is commonly used to establish a secure <b>symmetric session key</b>.
+- Symmetric encryption is then used for actual communication because it is faster.
+
+### Encryption Technologies 
+
+<b>Trusted Platform Module (TPM)</b>
+- A <b>TPM</b> is a hardware chip that performs cryptographic operations.
+- Commonly used for <b>full-disk encryption</b> and secure key storage.
+- Can securely store system certificates and encryption keys.
+Helps verify system integrity during boot processes.
+
+<b>Hardware Security Module (HSM)</b>
+- An <b>HSM</b> is dedicated hardware for managing cryptographic operations.
+- Used heavily in enterprise environments and data centers.
+- Can perform encryption, decryption, and digital signing.
+- Often designed with redundancy and fault tolerance.
+
+<b>Key Management System (KMS)</b>
+- A centralized system used to manage cryptographic keys.
+- Functions include:
+    - Creating keys
+    - Rotating keys
+    - Associating keys with services or users
+    - Logging key usage events
+
+<b>Secure Enclave</b>
+- An isolated secure region within a processor.
+- Stores highly sensitive information securely.
+- Often protects biometric data, encryption keys, and authentication data.
+
+### Obfuscation
+
+- <b>Obfuscation</b> hides information to make it more difficult to understand or interpret.
+
+<b>Steganography</b>
+- Hides secret information inside another medium.
+- Examples:
+    - Images
+    - Audio files
+    - Videos
+    - Network packets
+
+<b>Tokenization</b>
+- Replaces sensitive data with non-sensitive placeholder values called <b>tokens</b>.
+- Commonly used for:
+    - Credit card numbers
+    - Payment systems
+    - Personal information
+- Tokens are not mathematically related to the original value.
+
+<b>Data Masking</b>
+- Hides parts of sensitive information.
+- Example:
+    - Showing only the last 4 digits of a credit card number.
+    - Commonly used on receipts and customer-facing systems.
+
+### Hashing and Digital Signatures
+
+<b>Hashing</b>
+
+- <b>Hashing</b> provides:
+    - Data integrity
+    - Authentication support
+    - Hashing converts input data into a fixed-length output.
+    - Hashing is a <b>one-way function</b>, meaning it cannot realistically be reversed.
+
+<b>SHA-256</b>
+- A common modern hashing algorithm.
+- Produces a <b>256-bit hash</b>.
+- Represented as <b>64 hexadecimal characters</b>.
+
+<b>Hash Collisions</b>
+- A <b>collision</b> occurs when two different inputs generate the same hash value.
+Older algorithms such as <b>MD5</b> are vulnerable to collisions and are no longer considered secure.
+
+<b>Password Storage</b>
+- Passwords should be stored as <b>salted hashes</b>, not plaintext.
+
+<b>Salting</b>
+- <b>Salting</b> adds random data before hashing.
+- Prevents attackers from using:
+    - Rainbow tables
+    - Precomputed hash databases
+    - Even identical passwords generate different hashes when unique salts are used.
+
+<b>Digital Signatures</b>
+- Provide:
+    - Integrity
+    - Authentication
+    - Non-repudiation
+    - Verify that data was not altered during transmission.
+    - Created using a sender’s <b>private key</b>.
+    - Verified using the sender’s <b>public key</b>.
+
+### Blockchain Technology
+
+- A <b>blockchain</b> is a distributed ledger shared across multiple systems.
+- Each participant maintains a copy of the blockchain.
+- Blocks are connected using cryptographic hashes.
+- If a block changes, the hash changes, alerting the network.
+
+<b>Blockchain Uses</b>
+- Payment processing
+- Digital identity systems
+- Supply chain monitoring
+- Digital voting
+
+<b>Open Public Ledger</b>
+- A blockchain acts as an <b>open public ledger</b> where transactions are distributed across many systems.
+
+### Certificates and PKI
+
+<b>Certificates</b>
+- A digital certificate binds a <b>public key</b> to an identity.
+
+<b>Certificate Authority (CA)</b>
+- A trusted third party that validates and signs certificates.
+Browsers trust certificates signed by trusted CAs.
+
+<b>Public Key Infrastructure (PKI)</b>
+- Framework that manages:
+    - Public keys
+    - Private keys
+    - Certificates
+    - Trust relationships
+
+<b>Certificate Signing Request (CSR)</b>
+- A request sent to a CA asking for a certificate to be signed.
+
+<b>Self-Signed Certificates</b>
+- Certificates signed by the creator instead of a trusted CA.
+- Commonly used internally or for testing.
+- Browsers usually display security warnings for self-signed certificates.
+
+<b>Wildcard Certificates</b>
+- Secure multiple subdomains under one domain.
+- `*.example.com` can secure:
+    - `mail.example.com`
+    - `shop.example.com`
+    - `login.example.com`
+
+<b>Certificate Revocation List (CRL)</b>
+- A list of revoked certificates maintained by a CA.
+- Reasons for revocation may include:
+    - Compromised private keys
+    - Incorrect certificate issuance
+    - Policy violations
+
+<b>Online Certificate Status Protocol (OCSP)</b>
+- Allows systems to check certificate validity in real time.
+
+<b>Root of Trust</b>
+- Foundational trusted hardware or software components used to establish system security.

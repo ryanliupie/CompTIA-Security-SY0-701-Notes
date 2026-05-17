@@ -4,6 +4,8 @@
         "Honeyfiles",
         "Honeynets",
         "Honeytokens",
-        "SMTPS"
+        "OCSP",
+        "SMTPS",
+        "Steganography"
     ]
 }

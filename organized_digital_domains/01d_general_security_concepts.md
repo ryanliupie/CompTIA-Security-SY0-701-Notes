@@ -221,6 +221,7 @@ There are different security techniques used to create deception and disruptions
 - <b>Honeyfiles:</b> are files containing fake but seemingly sensitive information designed to attract attackers. For example, creating a file named `passwords.txt`.
 
 - <b>Honeytokens:</b> are pieces of fake data or information placed within databases, documents, email accounts, or other data repositories to detect unauthorized access. For example, fake login credentials or fake API keys may be planted to monitor who attempts to use them.
+<hr>
 
 ## 1.3 - Change Management
 
@@ -272,6 +273,7 @@ When managing many changes, <b>documentation</b> becomes very important. Every c
 - <b>Updating policies/procedures</b> such as new systems requiring new policies/procedures
 
 We can also review how code changes over time using systems like GitHub. This is a form of <b>version control</b>, allowing administrators and developers to track revisions, compare versions, and restore previous configurations if necessary. Some devices or operating systems may not include built-in version control features, so additional software may be required. 
+<hr>
 
 ## 1.4 - Cryptographic Solutions
 
